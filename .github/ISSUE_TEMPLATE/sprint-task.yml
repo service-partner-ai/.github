@@ -11,11 +11,6 @@ body:
       placeholder: Set up two separate GitHub repositories to isolate frontend (Next.js) and backend (AWS Lambda) code and simplify deployment paths.
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 🎯 Goal
-        _Brief explanation of what this task accomplishes and why it matters._
 
   - type: textarea
     id: deliverables
@@ -46,9 +41,7 @@ body:
       description: List the specific items that help confirm the task has been completed to the appropriate degree. Use checkboxes.
       placeholder: |
         - [ ] Basic unit tests have been created including positive and negative tests
-        - [ ] Validation should cover most critical risks at this iteration
-    validations:
-      required: true    
+        - [ ] Validation should cover most critical risks at this iteration   
   
   - type: textarea
     id: links
