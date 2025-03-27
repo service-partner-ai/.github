@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        "## 🎯 Goal
-        _Brief explanation of what this task accomplishes and why it matters._"
+        ## 🎯 Goal
+        _Brief explanation of what this task accomplishes and why it matters._
 
   - type: textarea
     id: deliverables
@@ -40,14 +40,14 @@ body:
         - PR: #123
         - Design Doc: https://...
         - Slack: https://...
-      value: ""
+      value: "text"
 
   - type: markdown
     attributes:
       value: |
-        "---
+        ---
         ⬇️ Use the **Project Fields sidebar** to assign:
         - `Iteration`: Sprint #
         - `Status`: Backlog, In Progress, Done
         - `Component`: Frontend / Backend / Infra / Misc
-        - `Impact` & `Effort`: To help with prioritization"
+        - `Impact` & `Effort`: To help with prioritization
