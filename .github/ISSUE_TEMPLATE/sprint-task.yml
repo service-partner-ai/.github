@@ -3,6 +3,14 @@ description: Track development work associated with a sprint
 title: "[Sprint Task] <brief description>"
 labels: ["sprint-task"]
 body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 🎯 Goal
+      description: Brief explanation of what this task accomplishes and why it matters.
+      placeholder: Set up two separate GitHub repositories to isolate frontend (Next.js) and backend (AWS Lambda) code and simplify deployment paths.
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
