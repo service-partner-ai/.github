@@ -1,7 +1,7 @@
 name: Sprint Task
 description: Track development work associated with a sprint
 title: "[Sprint Task] <brief description>"
-labels: [sprint-task]
+labels: ["sprint-task"]
 body:
   - type: markdown
     attributes:
