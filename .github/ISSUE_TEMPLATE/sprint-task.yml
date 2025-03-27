@@ -32,6 +32,17 @@ body:
       value: "text"
       
   - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 📌 Acceptance Criteria
+      description: List the specific items that help confirm the task has been completed to the appropriate degree. Use checkboxes.
+      placeholder: |
+        - [ ] Basic unit tests have been created including positive and negative tests
+        - [ ] Validation should cover most critical risks at this iteration
+    validations:
+      required: true    
+  
+  - type: textarea
     id: links
     attributes:
       label: 🔗 Related Links
