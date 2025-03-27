@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🎯 Goal
-        _Brief explanation of what this task accomplishes and why it matters._
+        "## 🎯 Goal
+        _Brief explanation of what this task accomplishes and why it matters._"
 
   - type: textarea
     id: deliverables
@@ -29,7 +29,7 @@ body:
       placeholder: |
         - We’ll validate the payload using Zod.
         - Will refactor this in Sprint 3 once calendar integration is added.
-      value: ""
+      value: "text"
 
   - type: textarea
     id: links
@@ -45,9 +45,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        "---
         ⬇️ Use the **Project Fields sidebar** to assign:
         - `Iteration`: Sprint #
         - `Status`: Backlog, In Progress, Done
         - `Component`: Frontend / Backend / Infra / Misc
-        - `Impact` & `Effort`: To help with prioritization
+        - `Impact` & `Effort`: To help with prioritization"
