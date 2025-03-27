@@ -1,0 +1,53 @@
+name: Sprint Task
+description: Track development work associated with a sprint
+title: "[Sprint Task] <brief description>"
+labels: [sprint-task]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Goal
+        _Brief explanation of what this task accomplishes and why it matters._
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: ✅ Deliverables
+      description: List the specific items that define task completion. Use checkboxes.
+      placeholder: |
+        - [ ] Create Lambda handler for webhook
+        - [ ] Validate request headers and body
+        - [ ] Persist payload to DynamoDB
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: 🧪 Approach / Technical Notes
+      description: Notes on implementation details, trade-offs, or decisions made.
+      placeholder: |
+        - We’ll validate the payload using Zod.
+        - Will refactor this in Sprint 3 once calendar integration is added.
+      value: ""
+
+  - type: textarea
+    id: links
+    attributes:
+      label: 🔗 Related Links
+      description: Paste any PRs, documentation, Slack threads, diagrams, etc.
+      placeholder: |
+        - PR: #123
+        - Design Doc: https://...
+        - Slack: https://...
+      value: ""
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ⬇️ Use the **Project Fields sidebar** to assign:
+        - `Iteration`: Sprint #
+        - `Status`: Backlog, In Progress, Done
+        - `Component`: Frontend / Backend / Infra / Misc
+        - `Impact` & `Effort`: To help with prioritization
