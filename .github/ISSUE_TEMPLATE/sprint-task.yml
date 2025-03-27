@@ -32,8 +32,7 @@ body:
       placeholder: |
         - We’ll validate the payload using Zod.
         - Will refactor this in Sprint 3 once calendar integration is added.
-      value: "text"
-      
+
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -41,8 +40,8 @@ body:
       description: List the specific items that help confirm the task has been completed to the appropriate degree. Use checkboxes.
       placeholder: |
         - [ ] Basic unit tests have been created including positive and negative tests
-        - [ ] Validation should cover most critical risks at this iteration   
-  
+        - [ ] Validation should cover most critical risks at this iteration
+
   - type: textarea
     id: links
     attributes:
@@ -50,9 +49,8 @@ body:
       description: Paste any PRs, documentation, Slack threads, diagrams, etc.
       placeholder: |
         - PR: #123
-        - Design Doc: https://...
-        - Slack: https://...
-      value: "text"
+        - [Design Doc:](https://...)
+        - [Slack](https://...)
 
   - type: markdown
     attributes:
