@@ -31,6 +31,17 @@ body:
         - Will refactor this in Sprint 3 once calendar integration is added.
       value: "text"
 
+    - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 📌 Acceptance Criteria
+      description: List the specific items that define completion for the overall task. Use checkboxes.
+      placeholder: |
+        - [ ] Webhook has basic unit tests
+        - [ ] Request header validation covers the most critical risks
+    validations:
+      required: true
+      
   - type: textarea
     id: links
     attributes:
